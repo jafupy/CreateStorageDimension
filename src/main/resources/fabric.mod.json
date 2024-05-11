@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "create-storage-dimension",
+	"version": "${version}",
+	"name": "Create Storage Dimension",
+	"description": "A Create Mod addon that adds a potentially OP storage system, available to be accessed from anywhere, and a backpack system, which can have many upgrades. inspired by Sophisticated Backpacks, Storage Drawers, and Appled Energistics 2.",
+	"authors": [
+		"JaFu.py"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC BY-NC-SA 4.0",
+	"icon": "assets/create-storage-dimension/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.jafupy.CreateStorageDimension"
+		],"client": [
+			"com.jafupy.CreateStorageDimensionClient"
+		],
+		"fabric-datagen": [
+			"com.jafupy.CreateStorageDimensionDataGenerator"
+		]
+	},
+	"mixins": [
+		"create-storage-dimension.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
