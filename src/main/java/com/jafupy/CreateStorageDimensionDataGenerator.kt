@@ -1,11 +1,9 @@
-package com.jafupy;
+package com.jafupy
 
-import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
-import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint
+import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator
 
-public class CreateStorageDimensionDataGenerator implements DataGeneratorEntrypoint {
-	@Override
-	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
-
-	}
+class CreateStorageDimensionDataGenerator : DataGeneratorEntrypoint {
+    override fun onInitializeDataGenerator(fabricDataGenerator: FabricDataGenerator) {
+    }
 }

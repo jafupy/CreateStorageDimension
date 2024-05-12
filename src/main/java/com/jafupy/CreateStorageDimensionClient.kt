@@ -1,11 +1,8 @@
-package com.jafupy;
+package com.jafupy
 
-import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.api.ClientModInitializer
 
-public class CreateStorageDimensionClient implements ClientModInitializer {
-
-    @Override
-    public void onInitializeClient() {
-
+class CreateStorageDimensionClient : ClientModInitializer {
+    override fun onInitializeClient() {
     }
 }

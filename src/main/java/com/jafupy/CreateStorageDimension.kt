@@ -1,17 +1,16 @@
-package com.jafupy;
+package com.jafupy
 
-import net.fabricmc.api.ModInitializer;
+import net.fabricmc.api.ModInitializer
+import org.slf4j.Logger
+import org.slf4j.LoggerFactory
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+class CreateStorageDimension : ModInitializer {
+    override fun onInitialize() {
+        LOGGER.info("Hello Fabric world!")
+    }
 
-public class CreateStorageDimension implements ModInitializer {
-	public static final String ModID = "create-storage-dimension";
-    public static final Logger LOGGER = LoggerFactory.getLogger(ModID);
-
-	@Override
-	public void onInitialize() {
-
-		LOGGER.info("Hello Fabric world!");
-	}
+    companion object {
+        const val ModID: String = "create-storage-dimension"
+        val LOGGER: Logger = LoggerFactory.getLogger(ModID)
+    }
 }
