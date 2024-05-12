@@ -1,0 +1,1 @@
+A Create Mod addon that adds a (potentially) OP storage system, available to be accessed from anywhere, and a backpack system, which can have many upgrades. inspired by Sophisticated Backpacks, Storage Drawers, and Applied Energistics 2.
